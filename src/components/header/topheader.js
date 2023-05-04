@@ -9,7 +9,7 @@ export default function topheader() {
     <Card className="topheader">
       <FlexRow style={{ justifyContent: "space-between" }}>
         <FlexRow>
-          <AiOutlineAppstoreAdd size={25} color="blue" />
+          <AiOutlineAppstoreAdd size={25} color="red" />
           <p>Travel</p>
         </FlexRow>
         <nav>
