@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../common/UI/Card/Container";
 import FlexRow from "../common/UI/Card/FlexRow";
-import Victoria from "../../assets/videos/NewVictoria.mp4";
+import Victoria from "../../assets/videos/v2.mp4";
 import Card from "../common/UI/Card/card";
 import PrimaryButton from "../common/UI/button/PrimaryButton";
 import "./sectionHeader.css";
@@ -10,9 +10,7 @@ import {
   AiOutlineFacebook,
   AiOutlineTwitter,
   AiOutlineInstagram,
-  AiOutlineFolderView,
   AiOutlineOrderedList,
-  AiOutlineUnorderedList,
   AiOutlineClockCircle,
 } from "react-icons/ai";
 

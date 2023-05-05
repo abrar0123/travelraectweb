@@ -1,8 +1,8 @@
-.sectionHeader {
-  padding: 0px 100px;
-}
 * {
   margin: 0px;
+}
+.sectionHeader {
+  padding: 0px 100px;
 }
 .videoContainer {
   width: 100%;
