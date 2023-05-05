@@ -5,14 +5,14 @@
   margin: 0px;
 }
 .videoContainer {
-  /* width: 100%; */
+  width: 100%;
   height: 480px;
   position: relative;
-
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
+  padding: 0px 100px;
+  justify-content: flex-start;
 }
 .videoContainer video {
   position: absolute;
@@ -23,8 +23,70 @@
   height: 100%;
   /* overflow: hidden; */
 }
-.videoContainer .videoCoontent {
+.videoContainer .videoContent {
   position: relative;
   z-index: 1;
   color: white;
+  width: 100%;
+}
+.videoContent .videop {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.videoContent h1 {
+  font-size: 36px;
+  /* margin: 0; */
+  padding-top: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.videoContent .primaryCardContainer {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(252, 248, 248, 0.9);
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  padding: 40px 30px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.primaryCardContainer .inputContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(254, 248, 248);
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px rgba(18, 18, 18, 0.3);
+}
+@media screen and (max-width: 700px) {
+  /* .primaryCardContainer .inputContainer {
+    width: 100%;
+  } */
+  .videoContainer {
+    padding: 0px 30px;
+  }
+}
+.primaryCardContainer input[type="text"],
+input[type="range"],
+input[type="date"] {
+  padding: 10px 15px;
+  color: black;
+  background-color: transparent;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.primaryCardContainer input[type="range"] {
+  margin: 0px 20px;
+}
+.primaryCardContainer p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
