@@ -5,7 +5,7 @@ import Container from "../common/UI/Card/Container";
 
 export default function countriesList({ countries }) {
   return (
-    <FlexRow>
+    <div className="countriesFlexContainar">
       {countries &&
         countries.map((item) => {
           const countryName = item.flags.alt.slice(0, 22);
@@ -22,6 +22,6 @@ export default function countriesList({ countries }) {
             </Card>
           );
         })}
-    </FlexRow>
+    </div>
   );
 }

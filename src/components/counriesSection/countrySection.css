@@ -1,18 +1,14 @@
 .CountrySection {
   padding: 0px 100px;
 }
-@media screen and (max-width: 700px) {
-  .CountrySection {
-    padding: 0px 20px;
-  }
-}
+
 .CountrySection h1 {
   margin: 50px 0px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .countriesListContainer {
-  width: 300px;
+  width: 310px;
   /* width: 25%; */
   height: 400px;
   overflow: hidden;
@@ -21,6 +17,22 @@
   border-radius: 10px;
   margin: 20px;
   /* padding-bottom: 20px; */
+}
+
+.countriesFlexContainar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .CountrySection {
+    padding: 0px;
+  }
+  .countriesFlexContainar {
+    justify-content: center;
+  }
 }
 .countriesListContainer .imageContainer {
   width: 100%;

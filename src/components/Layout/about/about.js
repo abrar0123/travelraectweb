@@ -10,11 +10,8 @@ import {
   AiOutlineFacebook,
   AiOutlineTwitter,
   AiOutlineInstagram,
-  AiOutlineOrderedList,
-  AiOutlineClockCircle,
   AiOutlineAlibaba,
   AiOutlineAmazon,
-  AiOutlineCalculator,
   AiOutlineLinkedin,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
@@ -33,12 +30,13 @@ export default function about() {
             <input type="text" placeholder="Enter Email" />
             <BiCurrentLocation size={20} style={{ marginRight: "10px" }} />
           </div>
+          
           <PrimaryButton style={{ padding: "10px 20px " }}>
             Send Email
           </PrimaryButton>
         </FlexRow>
 
-        <Card className="primaryCardContainer">
+        <Card className="primaryCardContainer1">
           <FlexRow
             style={{
               justifyContent: "space-between",

@@ -13,6 +13,10 @@
   padding: 0px 100px;
   justify-content: flex-start;
 }
+.flex {
+  display: "flex";
+  align-items: center;
+}
 
 .videoContainer video {
   position: absolute;
@@ -54,6 +58,11 @@
   align-items: center;
 }
 
+.primaryCardContainer .inputflex {
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
 .primaryCardContainer .inputContainer {
   width: 300px;
   display: flex;
@@ -66,12 +75,15 @@
   box-shadow: 1px 1px 5px rgba(18, 18, 18, 0.3);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   /* .primaryCardContainer .inputContainer {
     width: 100%;
   } */
   .videoContainer {
     padding: 0px 30px;
+  }
+  .primaryCardContainer .inputflex {
+    justify-content: center;
   }
 }
 .primaryCardContainer input[type="text"],

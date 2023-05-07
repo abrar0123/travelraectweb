@@ -25,9 +25,7 @@ export default function sectionHeader() {
 
       <Card className="videoContent">
         <p className="videop">Our Packages</p>
-        <FlexRow
-          style={{ justifyContent: "space-between", alignItems: "flex-end" }}
-        >
+        <div className="flex" style={{ justifyContent: "space-between" }}>
           <h1>
             Search Your{" "}
             <span style={{ borderBottom: "4px solid cyan " }}>Holiday</span>
@@ -35,13 +33,13 @@ export default function sectionHeader() {
           <PrimaryButton style={{ padding: "10px 20px " }}>
             More Filter
           </PrimaryButton>
-        </FlexRow>
-        {/* centered white  card  */}
+        </div>
 
+        {/* centered white  card  */}
         <Card className="primaryCardContainer">
-          <FlexRow style={{ justifyContent: "space-between", width: "100%" }}>
+          <div className="flex inputflex">
             <Container>
-              <p>Search your span destination</p>
+              <p>Search your destination</p>
               <div className="inputContainer">
                 <input type="text" placeholder="Country Name" />
                 <BiCurrentLocation size={20} style={{ marginRight: "10px" }} />
@@ -62,9 +60,9 @@ export default function sectionHeader() {
                 <input type="range" placeholder="Country date" />
               </div>
             </Container>
-          </FlexRow>
+          </div>
         </Card>
-        
+
         {/* icons styles */}
         <Card>
           <FlexRow style={{ marginTop: "20px" }}>
