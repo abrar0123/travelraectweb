@@ -1,12 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 .topheader {
   padding: 20px 100px;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 99;
   background-color: rgb(245, 244, 244);
 }
-* {
-  box-sizing: border-box;
+
+@media screen and (max-width: 700px) {
+  .topheader {
+    height: 80px;
+    /* background-color: rgb(216, 45, 45); */
+  }
+  ul {
+    visibility: hidden;
+  }
 }
 .topheader p {
   margin: 0px;

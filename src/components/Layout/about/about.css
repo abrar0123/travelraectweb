@@ -23,25 +23,25 @@
   height: 100%;
   /* overflow: hidden; */
 }
-.aboutvideoContainer .videoContent {
+.aboutvideoContainer .videoContent1 {
   position: relative;
   z-index: 1;
   color: white;
   width: 100%;
 }
-.videoContent .videop {
+.videoContent1 .videop {
   font-size: 16px;
   text-transform: uppercase;
 }
 
-.videoContent h1 {
+.videoContent1 h1 {
   font-size: 36px;
   /* margin: 0; */
   padding-top: 5px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.videoContent .primaryCardContainer {
+.videoContent1 .primaryCardContainer {
   width: 100%;
   margin-top: 20px;
   background-color: rgb(252, 248, 248, 0.9);
@@ -53,7 +53,7 @@
   align-items: center;
 }
 
-.videoContent .inputContainer {
+.videoContent1 .inputContainer1 {
   width: 300px;
   display: flex;
   margin-right: 10px;
@@ -70,30 +70,30 @@
     padding: 0px 20px;
   }
 }
-.videoContent .c2p {
+.videoContent1 .c2p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 10px;
 }
-.videoContent .c2p:hover {
+.videoContent1 .c2p:hover {
   cursor: pointer;
   color: rgb(23, 23, 237);
   transition: all 0.3s;
   transform: translate(3px, 1px);
 }
 
-.videoContent .bottomh2 {
+.videoContent1 .bottomh2 {
   text-transform: uppercase;
   /* margin-right: 30px; */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.videoContent h2 {
+.videoContent1 h2 {
   margin-right: 10px;
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.inputContainer input[type="text"],
+.inputContainer1 input[type="text"],
 input[type="range"],
 input[type="date"] {
   padding: 7px 15px;
@@ -114,7 +114,7 @@ input[type="date"] {
 
 /* kjjdjkd */
 
-.primaryCardContainer .inputContainer {
+.primaryCardContainer .inputContainer1 {
   width: 300px;
   display: flex;
   flex-direction: row;

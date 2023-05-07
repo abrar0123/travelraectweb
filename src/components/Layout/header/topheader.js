@@ -6,7 +6,7 @@ import { AiOutlineAppstoreAdd } from "react-icons/ai";
 import PrimaryButton from "../../common/UI/button/PrimaryButton";
 export default function topheader() {
   return (
-    <Card className="topheader">
+    <header className="topheader">
       <FlexRow style={{ justifyContent: "space-between" }}>
         <FlexRow>
           <AiOutlineAppstoreAdd size={25} color="red" />
@@ -36,6 +36,6 @@ export default function topheader() {
           </ul>
         </nav>
       </FlexRow>
-    </Card>
+    </header>
   );
 }

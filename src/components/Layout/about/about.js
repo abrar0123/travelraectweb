@@ -25,11 +25,11 @@ export default function about() {
       <video autoPlay muted loop>
         <source src={Victoria} type="video/mp4" />
       </video>
-      <Card className="videoContent">
+      <Card className="videoContent1">
         <FlexRow style={{ justifyContent: "center", alignItems: "center" }}>
           <h2>Travel with Us</h2>
 
-          <div style={{}} className="inputContainer">
+          <div style={{}} className="inputContainer1">
             <input type="text" placeholder="Enter Email" />
             <BiCurrentLocation size={20} style={{ marginRight: "10px" }} />
           </div>
@@ -107,7 +107,6 @@ export default function about() {
             </Container>
           </FlexRow>
         </Card>
-
       </Card>
     </Container>
   );

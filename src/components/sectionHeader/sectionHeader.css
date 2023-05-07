@@ -1,11 +1,10 @@
 * {
   margin: 0px;
 }
-.sectionHeader {
-  padding: 0px 100px;
-}
+
 .videoContainer {
   width: 100%;
+  margin-top: 80px;
   height: 480px;
   position: relative;
   display: flex;
@@ -14,6 +13,7 @@
   padding: 0px 100px;
   justify-content: flex-start;
 }
+
 .videoContainer video {
   position: absolute;
   object-fit: cover;
@@ -23,6 +23,7 @@
   height: 100%;
   /* overflow: hidden; */
 }
+
 .videoContainer .videoContent {
   position: relative;
   z-index: 1;
@@ -61,9 +62,10 @@
   background-color: rgb(254, 248, 248);
   border-radius: 20px;
   box-sizing: border-box;
-  margin-top: 10px;
+  margin: 10px 0px;
   box-shadow: 1px 1px 5px rgba(18, 18, 18, 0.3);
 }
+
 @media screen and (max-width: 700px) {
   /* .primaryCardContainer .inputContainer {
     width: 100%;
