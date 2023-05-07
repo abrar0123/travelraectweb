@@ -14,6 +14,7 @@ export default function countriesList({ countries }) {
               <Container className="imageContainer">
                 <img src={item.flags.png} />
               </Container>
+
               <Container style={{ padding: "10px" }}>
                 <h3 style={{ margin: "15px 0px" }}>{countryName}</h3>
                 <p>{item.flags.alt}</p>
